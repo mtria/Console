@@ -8,7 +8,7 @@ namespace AsyncAwaitConsoleTest
         async static Task Main(string[] args)
         {
             string s1 = null;
-            string s2 = "stringa";
+            var s2 = "stringa";
             if (s1 == s2)
             {
                 Console.WriteLine("Uguali");
