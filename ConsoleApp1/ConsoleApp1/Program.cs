@@ -13,6 +13,8 @@ namespace ConsoleApp1
 
             // Async Await feature
             var lr = new LongRunning();
+            
+            // qui verrà aggiunto il riferimento al nuovo progetto BackgroundWorker
         }
 
         static int Add(int x1, int x2)
