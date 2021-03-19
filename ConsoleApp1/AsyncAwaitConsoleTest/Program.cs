@@ -11,7 +11,7 @@ namespace AsyncAwaitConsoleTest
             string s2 = "stringa";
             if (s1 == s2)
             {
-                Console.WriteLine("Uguali");
+                Console.WriteLine("Le stringhe sono uguali");
             }
             var lr = new LongRunning();
             var stringa1 = await lr.GetString();
@@ -25,7 +25,7 @@ namespace AsyncAwaitConsoleTest
 
     public class LongRunning
     {
-        public async Task<string> GetString()
+        public async Task<string> GetString(string s = "")
         {
             for (int i = 0; i < 3; i++)
             {
