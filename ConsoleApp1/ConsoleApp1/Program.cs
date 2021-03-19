@@ -1,4 +1,5 @@
 ﻿using System;
+using AsyncAwaitConsoleTest;
 
 namespace ConsoleApp1
 {
@@ -9,6 +10,9 @@ namespace ConsoleApp1
             Console.WriteLine("Hello World!");
             // questo commento è stato editato in GitHub
             // questo commento è stato aggiunto in VS
+
+            // Async Await feature
+            var lr = new LongRunning();
         }
     }
 }
