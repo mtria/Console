@@ -14,5 +14,13 @@ namespace ConsoleApp1
             // Async Await feature
             var lr = new LongRunning();
         }
+
+        static int Add()
+        {
+            int x1 = 1;
+            int x2 = 2;
+            int sum = x1 + x2;
+            return sum;
+        }
     }
 }
