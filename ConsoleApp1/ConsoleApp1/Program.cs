@@ -1,6 +1,7 @@
 ﻿using System;
 using AsyncAwaitConsoleTest;
 using TcpServer;
+using BackGroundWorkerTest;
 
 namespace ConsoleApp1
 {
@@ -18,8 +19,9 @@ namespace ConsoleApp1
             // TcpServer feature (modificato anche metodo main)
             var test = new TestTcpServer();
             await test.Test2();
-            
+
             // qui verrà aggiunto il riferimento al nuovo progetto BackgroundWorker
+            new Worker().Run();
         }
 
         static int Add(int x1, int x2)

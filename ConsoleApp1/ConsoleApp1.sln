@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncAwaitConsoleTest", "AsyncAwaitConsoleTest\AsyncAwaitConsoleTest.csproj", "{AAD5AFF8-9621-4A0D-92F8-E31562279D8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpServer", "TcpServer\TcpServer.csproj", "{AD2964E8-99B2-45E5-9807-94B5BDDF3A89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TcpServer", "TcpServer\TcpServer.csproj", "{AD2964E8-99B2-45E5-9807-94B5BDDF3A89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackGroundWorkerTest", "BackGroundWorkerTest\BackGroundWorkerTest.csproj", "{35CCD75D-8CF9-4979-AC6B-F850EFCC4327}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{AD2964E8-99B2-45E5-9807-94B5BDDF3A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD2964E8-99B2-45E5-9807-94B5BDDF3A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD2964E8-99B2-45E5-9807-94B5BDDF3A89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35CCD75D-8CF9-4979-AC6B-F850EFCC4327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35CCD75D-8CF9-4979-AC6B-F850EFCC4327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35CCD75D-8CF9-4979-AC6B-F850EFCC4327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35CCD75D-8CF9-4979-AC6B-F850EFCC4327}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
