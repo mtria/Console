@@ -5,9 +5,21 @@ namespace AsyncAwaitConsoleTest
 {
     class Program
     {
-        static void Main(string[] args)
+        async static Task Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string s1 = null;
+            string s2 = "stringa";
+            if (s1 == s2)
+            {
+                Console.WriteLine("Uguali");
+            }
+            var lr = new LongRunning();
+            var stringa1 = await lr.GetString();
+            Console.WriteLine(stringa1);
+
+            Console.WriteLine("Stringa finale");
+
+            Console.ReadKey();
         }
     }
 
