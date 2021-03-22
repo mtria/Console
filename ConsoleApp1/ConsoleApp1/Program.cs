@@ -39,7 +39,7 @@ namespace ConsoleApp1
 
             Console.WriteLine("Stringa finale");
 
-            Console.ReadKey();
+            //Console.ReadKey();
         }
 
         static int Add(int x1, int x2)

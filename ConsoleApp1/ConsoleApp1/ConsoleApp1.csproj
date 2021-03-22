@@ -1,14 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
+<Project Sdk="Microsoft.NET.Sdk;Microsoft.NET.Sdk.Publish">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\AsyncAwaitConsoleTest\AsyncAwaitConsoleTest.csproj" />
     <ProjectReference Include="..\BackGroundWorkerTest\BackGroundWorkerTest.csproj" />
     <ProjectReference Include="..\TcpServer\TcpServer.csproj" />
   </ItemGroup>
-
+  <ItemGroup>
+    <None Update="Settings.job">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 </Project>
